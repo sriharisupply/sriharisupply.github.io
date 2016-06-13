@@ -1,0 +1,52 @@
+/*body{font-family: 'Noto Sans', sans-serif;}*/
+a:focus{outline: none;}
+a:hover, a:focus {text-decoration: none;}
+body{font-family: 'Josefin Sans', sans-serif;background-color: #ececec;}
+.topbar{background-color: #b1b1b1; padding: 3px 0px;}
+.topbar ul{margin-bottom: 0px;}
+/*.topbar ul > li > a:after{content:'|';padding-left: 5px; position: relative; top: -1px;}*/
+.topbar ul > li:last-child{content:'';}
+.topbar ul > li > a {color: #0e5aab; font-size: 10px; font-weight: 500; text-transform: uppercase;}
+.navbar{background-color: #0e5aab;color: #fff; margin-bottom: 10px;}
+.navbar-default .navbar-nav > li > a {color: #FFF;}
+.navbar-default .navbar-nav > li > a:hover{color: #b1b1b1;}
+.carousel{margin-bottom: 10px;}
+.carousel-indicators .active {background-color: rgba(62,0,96,0.5);}
+.carousel-indicators li{border: 1px solid #0e5aab;}
+.cmn-bg {padding: 20px; background: #f5f5f5; margin-bottom: 10px;}
+.headline{display: block;}
+.headline h2 {margin:0 0 10px 0;display: inline-block;padding-bottom: 5px; 
+   border-bottom: 2px solid #72c02c; font-size: 22px;}
+.content {font-size: 16px;}
+.followus{font-size: 16px; font-weight: 800;color: #ffb400;}
+.mt10 {margin-top: 10px;}
+.social-links li {margin: 20px 0px;}
+.social-links li a{color: #0e5aab;}
+.modal-content,.form-control,.btn {border-radius: 0px;}
+.modal-header {background-color: #0e5aab; color: #FFF; padding: 10px 15px;}
+/*.modal-title {font-size: 16px;}*/
+.close{opacity: 1; color:#FFF;font-weight: normal;}
+/*#d73d32.
+#3a5795*/
+.product-desc {padding: 8px; background-color: #EEEEEE;}
+.product-heading {font-size: 18px; color: #01579B; margin-top: 10px;}
+.icon-list li {padding: 0 0 5px 20px;display: block;position: relative;}
+/*Only For Right arrows*/
+.icon-list li:before {font-family: 'Glyphicons Halflings';position: absolute;left: 0px;top:3px;color: #673AB7;font-size:100%}
+.arrow-right li:before {content: '\e250';}
+.content-block i {margin: 10px 0px;}
+.content-block {padding:10px; border: 1px solid #eee; text-align: center;background: #f5f5f5; margin-bottom: 10px;}
+.content-block h2{font-size: 20px; color: #000; text-transform: uppercase; margin:0 0 10px 0;}
+.footer{background: #0e5aab; color: #FFF; padding: 1px 15px;}
+.footer p{margin: 5px 0px;}
+.footer a{margin: 0 2px; color: #eee;}
+ul.footer-socials {margin: 5px 0px;text-align: right;}
+/* Landscape phone to portrait tablet - mobile navigation */
+@media screen and (max-width: 767px) {
+  .logo {text-align: center;}
+  ul.social-links.pull-right{float: none !important;}
+  ul.social-links{text-align: center;}
+  .social-links li{margin: 10px 0px;}
+  .copyright {text-align: center;}
+  ul.footer-socials {margin: 5px 0px;text-align: center;}
+}
