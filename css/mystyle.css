@@ -57,6 +57,13 @@ ul.footer-socials {margin: 5px 0px;text-align: right;}
 .contactdet p {
     margin: 0;
 }
+.item {
+    margin-top: 32px;
+}
+.item img {
+    width: 100%;
+}
+.content-block img{width: 100%}
 @media screen and (max-width: 767px) {
   .logo {text-align: center;}
   ul.social-links.pull-right{float: none !important;}
